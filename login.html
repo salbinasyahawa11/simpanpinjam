@@ -1,0 +1,109 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Login - Aplikasi Simpan Pinjam
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   .header-bg {
+    background-color: #1E3A8A;
+   }
+   .footer-bg {
+    background-color: #1E3A8A;
+   }
+   .title-color {
+    color: #1E40AF;
+   }
+   .custom-padding {
+    padding: 1rem;
+   }
+   .custom-margin {
+    margin: 1rem 0;
+   }
+  </style>
+ </head>
+ <body class="font-roboto bg-gray-100">
+  <header class="header-bg text-white p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <img alt="Logo aplikasi simpan pinjam dengan desain modern dan warna biru" class="w-12 h-12" height="50" src="https://storage.googleapis.com/a1aa/image/4yIrBG6b924lPlUYIY8nI24Soip3Pntn5wIod6eNnNAeEG6TA.jpg" width="50"/>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="hover:underline" href="beranda.html">
+        Beranda
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="transaksi.html">
+        Transaksi
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="profil.html">
+        Profil
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="login.html">
+        Login
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="container mx-auto p-4 flex justify-center items-center min-h-screen">
+   <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+    <h2 class="text-2xl font-bold text-center title-color">
+     Login
+    </h2>
+    <form class="mt-6">
+     <div class="mb-4 custom-margin">
+      <label class="block text-gray-700" for="email">
+       Email
+      </label>
+      <input class="w-full px-4 py-2 mt-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 custom-padding" id="email" name="email" type="email"/>
+     </div>
+     <div class="mb-4 custom-margin">
+      <label class="block text-gray-700" for="password">
+       Password
+      </label>
+      <input class="w-full px-4 py-2 mt-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 custom-padding" id="password" name="password" type="password"/>
+     </div>
+     <div class="flex items-center justify-between custom-margin">
+      <div class="flex items-center">
+       <input class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded" id="remember_me" name="remember_me" type="checkbox"/>
+       <label class="ml-2 block text-gray-900" for="remember_me">
+        Remember me
+       </label>
+      </div>
+      <a class="text-sm text-blue-600 hover:underline" href="#">
+       Forgot your password?
+      </a>
+     </div>
+     <button class="w-full bg-blue-600 text-white py-2 px-4 rounded-lg mt-6 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 custom-padding">
+      Login
+     </button>
+    </form>
+    <p class="mt-6 text-center text-gray-700 custom-margin">
+     Don't have an account?
+     <a class="text-blue-600 hover:underline" href="#">
+      Sign up
+     </a>
+    </p>
+   </div>
+  </main>
+  <footer class="footer-bg text-white p-4 mt-8">
+   <div class="container mx-auto text-center">
+    <p>
+     © 2023 Aplikasi Simpan Pinjam. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
